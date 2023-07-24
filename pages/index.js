@@ -11,7 +11,7 @@ import Footer from "../components/footer";
 const LandingPage = () => {
   return (
     <div className="relative bg-gray-white w-full  flex flex-col items-center justify-start">
-      <Header hamburger />
+      <Header hamburger={false} />
       <Main />
       <PropertiesContainer />
       <AreaPropertiesContainer />

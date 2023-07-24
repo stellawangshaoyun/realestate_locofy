@@ -10,7 +10,7 @@ const Main = () => {
   const router = useRouter();
 
   const onSearchCTAClick = useCallback(() => {
-    router.push("/");
+    router.push("/properties");
   }, [router]);
 
   return (
