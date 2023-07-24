@@ -21,10 +21,10 @@ const Contact = () => {
             </div>
           </div>
           <div className="self-stretch flex flex-col items-center justify-start gap-[10px]">
-            <input
-              className="[border:none] font-roboto text-base bg-[transparent] self-stretch flex flex-row items-start justify-center md:flex-col md:gap-[10px] md:items-start md:justify-center"
+          <input
+              className="font-roboto text-base bg-[transparent] self-stretch rounded flex flex-col py-4 px-3 items-start justify-start border-[1px] border-solid border-gray"
               type="text"
-              defaultValue="Last name"
+              defaultValue=""
               placeholder="First name"
               maxLength
               minLength
@@ -32,8 +32,17 @@ const Contact = () => {
             />
             <input
               className="font-roboto text-base bg-[transparent] self-stretch rounded flex flex-col py-4 px-3 items-start justify-start border-[1px] border-solid border-gray"
+              type="text"
+              defaultValue=""
+              placeholder="Last name"
+              maxLength
+              minLength
+              required
+            />
+            <input
+              className="font-roboto text-base bg-[transparent] self-stretch rounded flex flex-col py-4 px-3 items-start justify-start border-[1px] border-solid border-gray"
               type="email"
-              placeholder="Email id"
+              placeholder="Email"
               maxLength
               minLength
               required

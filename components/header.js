@@ -16,7 +16,7 @@ const Header = ({ hamburger }) => {
             <div className="relative leading-[22px]">HOME</div>
             <div className="relative leading-[22px]">ABOUT US</div>
             <div className="relative leading-[22px]">OUR AGENTS</div>
-            <div className="relative leading-[22px] font-semibold">
+            <div className="relative leading-[22px] ">
               PROPERTIES
             </div>
             <div className="relative leading-[22px]">GALLERY</div>

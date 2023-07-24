@@ -1,4 +1,4 @@
-import Card1 from "./card1";
+import PropertyCard from "./propertyCard";
 
 const RentPropertiesContainer = () => {
   return (
