@@ -1,7 +1,8 @@
 
   # real estate
 
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
+  Figma design link
+  "https://www.figma.com/file/GTxPw1afrhyYbv0ReGq9yc/Real-Estate-Design-(JS-Mastery)-(Copy)?type=design&node-id=308%3A1687&mode=design&t=g7NnxCA1Mzm6cs0z-1"
 
   To preview and run the project on your device:
   1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
